@@ -12,33 +12,33 @@ capybara-*.html
 rerun.txt
 pickle-email-*.html
 
-# TODO Comment out this rule if you are OK with secrets being uploaded to the repo
+# TODO Закомментируйте это правило, если вы в порядке с секретами, загружаемыми в репо
 config/initializers/secret_token.rb
 
-# Only include if you have production secrets in this file, which is no longer a Rails default
+# Включите, только если у вас есть секреты производства в этом файле, который больше не является Rails по умолчанию
 # config/secrets.yml
 
 # dotenv
-# TODO Comment out this rule if environment variables can be committed
+# TODO Закомментируйте это правило, если переменные окружения могут быть зафиксированы
 .env
 
-## Environment normalization:
+## Нормализация окружающей среды:
 /.bundle
 /vendor/bundle
 
-# these should all be checked in to normalize the environment:
+# все они должны быть проверены для нормализации окружающей среды:
 # Gemfile.lock, .ruby-version, .ruby-gemset
 
-# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+# если поддержка rvm < 1.11.0 или делать что-то фантастическое, игнорируйте это:
 .rvmrc
 
-# if using bower-rails ignore default bower_components path bower.json files
+# если использовать bower-rails игнорировать default bower_components путь файлы bower.json
 /vendor/assets/bower_components
 *.bowerrc
 bower.json
 
-# Ignore pow environment settings
+# Игнорировать настройки среды pow
 .powenv
 
-# Ignore Byebug command history file.
+# Игнорировать файл истории команд Byebug.
 .byebug_history
